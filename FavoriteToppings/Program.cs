@@ -32,6 +32,7 @@ namespace FavoriteToppings
                         sameToppings++;
                     }
                 }
+                sameToppings++;
                 for (var i = 0; i < 20; i++)
                 {
                     var dontAdd = false;
