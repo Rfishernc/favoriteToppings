@@ -60,7 +60,7 @@ namespace FavoriteToppings
                     {
                         if (sameToppings > bestPizzas[i].Popularity)
                         {
-                            bestPizzas.Add(pizza);
+                            bestPizzas.Insert(i, pizza);
                             bestPizzas[i].Popularity = sameToppings;
                             break;
                         }
